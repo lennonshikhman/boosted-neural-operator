@@ -51,7 +51,7 @@ python homogeneous_operator_boosting.py \
 
   --families fno deeponet cno \
 
-  --seeds 11 22 33 44 55 66 77 88 99 110 \
+  --seeds 11 22 33 44 55 66 77 88 99 111 \
 
   --results results/results_full_vs_boosted_tiny_10seeds.json \
 
@@ -81,7 +81,4 @@ python summarize_gbno_pde_model_breakdown.py \
 
 ## Data
 
-
-
 Large benchmark files are not committed. See `data/README.md`.
-
