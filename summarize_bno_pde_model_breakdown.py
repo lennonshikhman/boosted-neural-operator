@@ -253,7 +253,7 @@ def fmt_int(x: float) -> str:
 
 def write_markdown(summary: pd.DataFrame, path: Path, *, ci_method: str, use_best_stage: bool) -> None:
     lines = []
-    lines.append("# Per-PDE / Model-Class GBNO Summary")
+    lines.append("# Per-PDE / Model-Class BNO Summary")
     lines.append("")
     lines.append(f"CI method: `{ci_method}`")
     lines.append(f"Performance result: `{'best_stage_improvement_pct' if use_best_stage else 'improvement_pct/final boosted_tiny_rel_l2'}`")
@@ -294,7 +294,7 @@ def write_markdown(summary: pd.DataFrame, path: Path, *, ci_method: str, use_bes
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Summarize GBNO full-vs-boosted-tiny results by PDE and model family."
+        description="Summarize BNO full-vs-boosted-tiny results by PDE and model family."
     )
     parser.add_argument(
         "input_csv",
