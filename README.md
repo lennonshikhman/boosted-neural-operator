@@ -17,7 +17,7 @@ This repository contains the homogeneous same-family Operator Boosting experimen
 
 - `homogeneous_operator_boosting.py` — main experiment driver
 
-- `summarize_gbno_pde_model_breakdown.py` — summary table generator
+- `summarize_bno_pde_model_breakdown.py` — summary table generator
 
 - `results/` — completed homogeneous result CSV/JSON and per-PDE/model summary tables
 
@@ -67,7 +67,7 @@ python homogeneous_operator_boosting.py \
 
 ```bash
 
-python summarize_gbno_pde_model_breakdown.py \
+python summarize_bno_pde_model_breakdown.py \
 
   results/results_full_vs_boosted_tiny_10seeds.csv \
 
